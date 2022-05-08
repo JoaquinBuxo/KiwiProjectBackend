@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -14,6 +15,7 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "jest": "^28.1.0",
     "prettier": "2.6.2"
   }
 }
