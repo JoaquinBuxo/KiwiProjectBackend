@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const t9 = require("./t9logic");
+const t9 = require("../src/t9logic");
 
 app.use(cors());
 app.use(express.json());
