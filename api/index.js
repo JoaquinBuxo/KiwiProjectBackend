@@ -6,7 +6,7 @@ const t9 = require("../src/t9logic");
 app.use(cors());
 app.use(express.json());
 
-app.get("/t9/:number", (req, res) => {
+app.get("/api/t9/:number", (req, res) => {
   const { number } = req.params;
   return res.json(t9.wordCombinations(number));
 });
