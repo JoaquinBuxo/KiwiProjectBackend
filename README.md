@@ -4,6 +4,8 @@ Backend that provides an endpoint that converts a given numeric string into a li
 
 For more information you can check this repository: https://github.com/JoaquinBuxo/KiwiProjectFrontend
 
+You can check T9 logic with Unit Tests here: https://github.com/JoaquinBuxo/KiwiProjectBackend/tree/main/src
+
 ## Installation
 
 First you will need to install [Node.js](https://nodejs.org/) and then run the scripts in the following order:
